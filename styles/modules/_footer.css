@@ -1,0 +1,23 @@
+.footer {
+   margin-top:50px;
+    background-color: $color-secondary;
+    grid-column: 1 / -1;
+   grid-row: footer-start / footer-end;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height:50px;
+ 
+    @media (min-width: $bp-large) {
+       flex-direction: row;
+       grid-column: 2 / -1;
+    }
+ 
+    &__description {
+       margin: 0 2rem;
+       text-align: center;
+    }
+ }

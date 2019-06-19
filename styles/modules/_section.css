@@ -1,0 +1,30 @@
+.section {
+     &__description{
+        text-align:center;
+       font-size:28px;
+       margin-top:70px;
+       margin-bottom:70px;
+       color:#3C5A72;
+       font-family:$font-primary;
+     }
+/*      
+    grid-row: section-start / section-end;
+    grid-column: center-start / center-end;
+ 
+    margin: 5rem 0;
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 5rem; */
+     
+&__member{
+     display: grid;
+       align-items: center;
+    margin-top:50px;
+    margin-bottom:70px;
+    width:900px;
+    margin:auto;
+  
+ }
+ }
+ 
